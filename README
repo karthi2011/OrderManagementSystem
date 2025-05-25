@@ -1,0 +1,9 @@
+How to Run
+Compile the Java source code:
+
+Make sure gson-2.10.1.jar is in the same directory as your Java file
+
+javac -cp gson-2.10.1.jar OrderManagementSystem.java
+Run the compiled program:
+
+java -cp ".;.\gson-2.10.1.jar" OrderManagementSystem
