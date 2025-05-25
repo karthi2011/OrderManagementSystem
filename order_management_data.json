@@ -1,0 +1,60 @@
+{
+  "orders": [
+    {
+      "id": "order1",
+      "customer": {
+        "id": "cust1",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": "1234567890"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "prod1",
+            "name": "Laptop",
+            "price": 899.99
+          },
+          "quantity": 1,
+          "subtotal": 899.99
+        },
+        {
+          "product": {
+            "id": "prod3",
+            "name": "Headphones",
+            "price": 149.99
+          },
+          "quantity": 2,
+          "subtotal": 299.98
+        }
+      ],
+      "orderDate": "May 25, 2025, 5:00:55 PM",
+      "totalAmount": 1199.97
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod3",
+      "name": "Headphones",
+      "price": 149.99
+    },
+    {
+      "id": "prod2",
+      "name": "Phone",
+      "price": 699.99
+    },
+    {
+      "id": "prod1",
+      "name": "Laptop",
+      "price": 899.99
+    }
+  ]
+}
